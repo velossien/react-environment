@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class HelloWorld extends React.Component {
     constructor(props) {
@@ -13,3 +14,9 @@ export default class HelloWorld extends React.Component {
         )
     };
 };
+
+/* How proptypes are set up:
+    HelloWorld.propTypes = {
+        propExample: PropTypes.string.isRequired;
+    };
+*/
