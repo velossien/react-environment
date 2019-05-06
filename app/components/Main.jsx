@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+import ChildComponent from './ChildComponent.jsx';
 
-export default class Main extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+function Main() {
+  return (
+    <div>
+      <ChildComponent paragraph="Hellllloooo" />
+    </div>
+  );
+}
 
-    render() {
-        return (
-            <div className="main-container">
-                <p> Hello World!</p>
-            </div>
-        )
-    };
-};
+export default Main;
