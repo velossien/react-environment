@@ -13,4 +13,4 @@ This is a React Environment I created that includes React, Babel, SASS, and Webp
 - Uses the Webpack 4 default minimizer (Terser).
 - JS is not minimzed when in dev mode.
 - Uses React 16 and Webpack 4.
-- Is using AirBnB stlye guide for eslinting.
+- Is using AirBnB style guide for eslinting.
